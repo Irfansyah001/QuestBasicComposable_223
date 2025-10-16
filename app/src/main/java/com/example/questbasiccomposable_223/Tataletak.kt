@@ -114,7 +114,7 @@ fun TataletakRowColumn(modifier: Modifier) {
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
     // Memanggil gambar dari resources drawable
-    val gambar = painterResource(id = R.drawable.myDreamJob)
+    val gambar = painterResource(id = R.drawable.mydreamjob)
 
     Column {
         // Box pertama dengan latar belakang kuning
