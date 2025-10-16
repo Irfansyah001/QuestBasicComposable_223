@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestBasicComposable_223Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    // Panggil composable layout utama dengan padding dari Scaffold
+                    TataletakBoxColumnRow(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
